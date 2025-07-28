@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stopwatch-container">
+      <div class="time-section">
+        <div class="time-box">
+          <p class="label">Hours</p>
+          <div id="hours" class="time">00</div>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <p class="label">Minutes</p>
+          <div id="minutes" class="time">00</div>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <p class="label">Seconds</p>
+          <div id="seconds" class="time">00</div>
+        </div>
+      </div>
+
+      <div class="button-section">
+        <button id="pause">Pause</button>
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
